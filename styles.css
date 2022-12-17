@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Merriweather:wght@400;700&family=Roboto:wght@300;700&family=Ubuntu:wght@300;400&display=swap");
 * {
   box-sizing: border-box;
+  background-color: rgb(43, 183, 226);
 }
 :root {
   --width: 600px;
@@ -17,6 +18,8 @@ textarea {
   border: 3px solid black;
   border-radius: 0.5rem;
   font-family: "Ubuntu", sans-serif;
+  font-size: medium;
+  background-color: aliceblue;
 }
 button {
   margin: 1rem 0rem;
@@ -24,4 +27,11 @@ button {
   border-radius: 0.3rem;
   padding: 1rem 1.5rem;
   font-family: "Ubuntu", sans-serif;
+}
+#output {
+  border: 3px solid black;
+  height: 15vh;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  background-color: aliceblue;
 }
