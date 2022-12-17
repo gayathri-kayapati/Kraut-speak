@@ -1,12 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Merriweather:wght@400;700&family=Roboto:wght@300;700&family=Ubuntu:wght@300;400&display=swap");
 * {
   box-sizing: border-box;
-  background-color: rgb(43, 183, 226);
+  font-family: "Ubuntu", sans-serif;
+  --primary-yellow: rgb(104, 224, 214);
+  --secondary-yellow: rgb(60, 246, 200);
+  --primary-black: rgb(39, 38, 38);
 }
 :root {
   --width: 600px;
 }
 body {
+  background: linear-gradient(var(--primary-yellow), var(--secondary-yellow));
+  color: var(--primary-black);
   font-family: "Ubuntu", sans-serif;
   width: var(--width);
   margin: auto;
@@ -17,7 +22,6 @@ textarea {
   height: 7rem;
   border: 3px solid black;
   border-radius: 0.5rem;
-  font-family: "Ubuntu", sans-serif;
   font-size: medium;
   background-color: aliceblue;
 }
@@ -26,7 +30,11 @@ button {
   border: 2px solid black;
   border-radius: 0.3rem;
   padding: 1rem 1.5rem;
-  font-family: "Ubuntu", sans-serif;
+  align-items: center;
+}
+button:hover {
+  color: rgb(43, 226, 168);
+  background-color: black;
 }
 #output {
   border: 3px solid black;
