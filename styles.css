@@ -2,15 +2,15 @@
 * {
   box-sizing: border-box;
   font-family: "Ubuntu", sans-serif;
-  --primary-yellow: rgb(104, 224, 214);
-  --secondary-yellow: rgb(60, 246, 200);
+  --primary-blue: rgb(104, 224, 214);
+  --secondary-blue: rgb(60, 246, 200);
   --primary-black: rgb(39, 38, 38);
 }
 :root {
   --width: 600px;
 }
 body {
-  background: linear-gradient(var(--primary-yellow), var(--secondary-yellow));
+  background: linear-gradient(var(--primary-blue), var(--secondary-blue));
   color: var(--primary-black);
   font-family: "Ubuntu", sans-serif;
   width: var(--width);
@@ -30,10 +30,10 @@ button {
   border: 2px solid black;
   border-radius: 0.3rem;
   padding: 1rem 1.5rem;
-  align-items: center;
+  background-color: transparent;
 }
 button:hover {
-  color: rgb(43, 226, 168);
+  color: var(--secondary-blue);
   background-color: black;
 }
 #output {
