@@ -7,7 +7,7 @@
   --primary-black: rgb(39, 38, 38);
 }
 :root {
-  --width: 600px;
+  --width: 500px;
 }
 body {
   background: linear-gradient(var(--primary-blue), var(--secondary-blue));
@@ -35,6 +35,9 @@ button {
 button:hover {
   color: var(--secondary-blue);
   background-color: black;
+}
+.center {
+  text-align: center;
 }
 #output {
   border: 3px solid black;
